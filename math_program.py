@@ -1,14 +1,14 @@
 # Name: Alain
-# Addition/Subtraction Program
+# Collaborators: None
 
-# Functions for extra credit
+# Simple functions
 def add(a, b):
     return a + b
 
 def subtract(a, b):
     return a - b
 
-operation = "addition"  
+operation = "addition"  # change to "subtraction" if you want
 num1 = 7
 num2 = 3
 
@@ -16,10 +16,6 @@ print("Operation:", operation)
 print("Numbers:", num1, num2)
 
 if operation == "addition":
-    result = add(num1, num2)
-    print("Result:", result)
+    print("Result:", add(num1, num2))
 elif operation == "subtraction":
-    result = subtract(num1, num2)
-    print("Result:", result)
-else:
-    print("Invalid operation")
+    print("Result:", subtract(num1, num2))
