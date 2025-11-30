@@ -13,11 +13,11 @@ def subtract_numbers(a, b):
 print("Welcome to the Math Program!")
 operation = input("Do you want to do addition or subtraction? ").strip().lower()
 
-# Ask for numbers
+
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
-# Decide which function to use
+
 if operation == "addition":
     result = add_numbers(num1, num2)
     print("The result is:", result)
