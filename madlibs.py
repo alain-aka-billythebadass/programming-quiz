@@ -1,6 +1,5 @@
 # This is a MadLibs project
 # My name:Alain
-# Who I collaborated with:Noone
 
 print("************************************")
 print("|                                  |")
