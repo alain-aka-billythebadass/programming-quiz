@@ -1,7 +1,7 @@
-# Name:
-# Who I collaborated with:
+# Name:Alain
+# Who I collaborated with:Noone
 
-# EXTRA CREDIT VERSION — uses two functions
+# EXTRA CREDIT
 
 def add_numbers(a, b):
     return a + b
